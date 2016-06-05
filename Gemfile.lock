@@ -13,11 +13,13 @@ GEM
     equalizer (0.0.11)
     erubis (2.7.0)
     ice_nine (0.11.2)
+    inflecto (0.0.2)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
     minitest (5.9.0)
     pg (0.18.4)
     rack (1.6.4)
+    rake (11.1.2)
     roda (2.14.0)
       rack
     rom (1.0.0)
@@ -51,8 +53,10 @@ PLATFORMS
 
 DEPENDENCIES
   erubis
+  inflecto
   minitest
   pg
+  rake
   roda
   rom
   rom-repository
